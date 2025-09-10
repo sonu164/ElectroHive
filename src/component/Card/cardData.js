@@ -1,0 +1,222 @@
+export const cardData = [
+  {
+    id: 1,
+    name: "iPhone 15 Pro",
+    brand: "Apple",
+    category: "Smartphone",
+    price: 129900,
+    stock: 12,
+    rating: 4.8,
+    description: "Apple iPhone 15 Pro with A17 Pro chip, titanium body, and 48MP camera.",
+    image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-finish-select-202309?wid=470&hei=556&fmt=png-alpha&.v=1692876020144"
+  },
+  {
+    id: 2,
+    name: "Samsung Galaxy S24 Ultra",
+    brand: "Samsung",
+    category: "Smartphone",
+    price: 115000,
+    stock: 18,
+    rating: 4.7,
+    description: "Samsung flagship with Snapdragon 8 Gen 3, 200MP camera, and S Pen.",
+    image: "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-s928bzagvph/gallery/ph-galaxy-s24-ultra-sm-s928-528085-sm-s928bzagvph-644431515"
+  },
+  {
+    id: 3,
+    name: "MacBook Air M2",
+    brand: "Apple",
+    category: "Laptop",
+    price: 114900,
+    stock: 10,
+    rating: 4.6,
+    description: "Apple MacBook Air M2 with 13-inch Retina display and 18-hour battery life.",
+    image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mb-air-space-gray-select-202206?wid=2000&hei=1536&fmt=png-alpha&.v=1653493200182"
+  },
+  {
+    id: 4,
+    name: "Dell XPS 15",
+    brand: "Dell",
+    category: "Laptop",
+    price: 145000,
+    stock: 7,
+    rating: 4.5,
+    description: "Dell XPS 15 with Intel i7 13th Gen, RTX 4070, and 4K display.",
+    image: "https://i.dell.com/sites/imagecontent/products/PublishingImages/xps-15-9530/images/xps-15-9530-laptop-black-gallery-504x350.psd"
+  },
+  {
+    id: 5,
+    name: "Sony WH-1000XM5",
+    brand: "Sony",
+    category: "Headphones",
+    price: 29990,
+    stock: 25,
+    rating: 4.8,
+    description: "Sony wireless noise-cancelling headphones with 30-hour battery life.",
+    image: "https://m.media-amazon.com/images/I/71o8Q5XJS5L._AC_SX679_.jpg"
+  },
+  {
+    id: 6,
+    name: "JBL Flip 6",
+    brand: "JBL",
+    category: "Speaker",
+    price: 11990,
+    stock: 30,
+    rating: 4.4,
+    description: "Portable Bluetooth speaker with powerful bass and 12-hour playtime.",
+    image: "https://i1.wp.com/quieton.com/wp-content/uploads/2023/08/JBL-FLIP-6-SPEAKER.jpg"
+  },
+  {
+    id: 7,
+    name: "Apple Watch Series 9",
+    brand: "Apple",
+    category: "Smartwatch",
+    price: 45900,
+    stock: 20,
+    rating: 4.6,
+    description: "Apple Watch Series 9 with advanced health monitoring and Always-On display.",
+    image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-series-9-aluminum-midnight-select-202309_GEO_US?wid=470&hei=556&fmt=png-alpha&.v=1692876001142"
+  },
+  {
+    id: 8,
+    name: "Samsung Galaxy Watch 6",
+    brand: "Samsung",
+    category: "Smartwatch",
+    price: 29999,
+    stock: 22,
+    rating: 4.5,
+    description: "Samsung Galaxy Watch 6 with AMOLED display and fitness tracking.",
+    image: "https://images.samsung.com/is/image/samsung/p6pim/in/2208/gallery/in-galaxywatch6-alm-epas-smartwatch-1-535983-sm-r915dzdginu-530857731"
+  },
+  {
+    id: 9,
+    name: "Canon EOS R6 Mark II",
+    brand: "Canon",
+    category: "Camera",
+    price: 215000,
+    stock: 5,
+    rating: 4.9,
+    description: "Professional mirrorless camera with 24.2MP sensor and 4K video.",
+    image: "https://static.bhphoto.com/images/images2500x2500/1670784998_1835427.jpg"
+  },
+  {
+    id: 10,
+    name: "Nikon Z6 II",
+    brand: "Nikon",
+    category: "Camera",
+    price: 189000,
+    stock: 6,
+    rating: 4.7,
+    description: "Full-frame mirrorless camera with dual processors and 273-point AF.",
+    image: "https://cdn.mos.cms.futurecdn.net/cbwH2Qh97VnwLBAURhGjPW-1024-80.jpg"
+  },
+  {
+    id: 11,
+    name: "LG OLED C3 55-inch TV",
+    brand: "LG",
+    category: "Television",
+    price: 142000,
+    stock: 8,
+    rating: 4.8,
+    description: "LG OLED smart TV with 4K Dolby Vision and NVIDIA G-Sync support.",
+    image: "https://www.lg.com/us/images/tvs/md07514698/gallery/large05.jpg"
+  },
+  {
+    id: 12,
+    name: "Sony Bravia XR 65-inch",
+    brand: "Sony",
+    category: "Television",
+    price: 178000,
+    stock: 4,
+    rating: 4.7,
+    description: "Sony Bravia XR 4K TV with Cognitive Processor XR and Dolby Atmos.",
+    image: "https://m.media-amazon.com/images/I/81YwOxOgTBL._AC_SX679_.jpg"
+  },
+  {
+    id: 13,
+    name: "Microsoft Xbox Series X",
+    brand: "Microsoft",
+    category: "Gaming Console",
+    price: 55990,
+    stock: 15,
+    rating: 4.9,
+    description: "Next-gen gaming console with 4K gaming and 1TB SSD storage.",
+    image: "https://compass-ssl.xbox.com/assets/7f/ae/7fae32c7-fda9-455d-9e95-7c8da26da0fa.jpg?n=Xbox-Series-X_Redesign-0_Hub-1074_x1.jpg"
+  },
+  {
+    id: 14,
+    name: "Sony PlayStation 5",
+    brand: "Sony",
+    category: "Gaming Console",
+    price: 54990,
+    stock: 14,
+    rating: 4.9,
+    description: "PlayStation 5 with ultra-high-speed SSD and ray tracing support.",
+    image: "https://www.sony.com/image/f8e4bc733f0b07d61c56632369c08fa5?fmt=pjpeg&wid=620&bgcolor=FFFFFF&bgc=FFFFFF"
+  },
+  {
+    id: 15,
+    name: "Apple iPad Pro 12.9 M2",
+    brand: "Apple",
+    category: "Tablet",
+    price: 99900,
+    stock: 9,
+    rating: 4.7,
+    description: "iPad Pro with M2 chip, Liquid Retina XDR display, and Apple Pencil support.",
+    image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-pro-12-select-wifi-spacegray-202206?wid=2000&hei=1536&fmt=jpeg&qlt=90&.v=1653493200182"
+  },
+  {
+    id: 16,
+    name: "Samsung Galaxy Tab S9 Ultra",
+    brand: "Samsung",
+    category: "Tablet",
+    price: 108000,
+    stock: 11,
+    rating: 4.6,
+    description: "Galaxy Tab S9 Ultra with AMOLED display and Snapdragon 8 Gen 2.",
+    image: "https://images.samsung.com/is/image/samsung/p6pim/in/2307/gallery/in-galaxy-tab-s9-ultra-5g-t926-sm-t926bzahinu-531640940"
+  },
+  {
+    id: 17,
+    name: "Google Pixel 8 Pro",
+    brand: "Google",
+    category: "Smartphone",
+    price: 99900,
+    stock: 13,
+    rating: 4.5,
+    description: "Pixel 8 Pro with Tensor G3, AI camera features, and 120Hz OLED display.",
+    image: "https://store.google.com/product/images/specs/pixel_8_pro_sorta_sunny_front.png"
+  },
+  {
+    id: 18,
+    name: "Bose QuietComfort 45",
+    brand: "Bose",
+    category: "Headphones",
+    price: 29900,
+    stock: 19,
+    rating: 4.7,
+    description: "Bose wireless noise-cancelling headphones with 24-hour battery life.",
+    image: "https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/quietcomfort_45/product_silo_images/QC45_EC_hero.psd"
+  },
+  {
+    id: 19,
+    name: "HP Spectre x360",
+    brand: "HP",
+    category: "Laptop",
+    price: 124000,
+    stock: 10,
+    rating: 4.4,
+    description: "HP Spectre convertible laptop with Intel i7 and OLED touch display.",
+    image: "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07109dd13986a3f96cb9e26591a588ccc94c82f.jpg"
+  },
+  {
+    id: 20,
+    name: "Asus ROG Phone 7",
+    brand: "Asus",
+    category: "Smartphone",
+    price: 72000,
+    stock: 16,
+    rating: 4.6,
+    description: "Gaming smartphone with Snapdragon 8 Gen 2, 165Hz display, and RGB lighting.",
+    image: "https://dlcdnwebimgs.asus.com/gain/5141bd99-bd37-4ecb-9afe-1d8db455f622/"
+  }
+];
