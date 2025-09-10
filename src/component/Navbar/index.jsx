@@ -90,6 +90,12 @@ const Navbar = () => {
                 >
                   <Link to="/about">About</Link>
                 </li>
+                <li
+                  onClick={() => setTab("History")}
+                  className={tab === "History" ? "text-blue-300" : ""}
+                >
+                  <Link to="/History">History</Link>
+                </li>
               </ul>
             </div>
             <div className="font-extrabold">
